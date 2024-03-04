@@ -123,7 +123,9 @@ img {
     opacity: 1;
   }
 }
-
+footer{
+    padding: 2rem;
+}
 footer a{
     color:black;
     padding: 14px 16px;
@@ -132,5 +134,5 @@ footer a{
     text-align: center;
 }
 article{
-    padding: 1rem;
+    padding: 2rem;
 }
