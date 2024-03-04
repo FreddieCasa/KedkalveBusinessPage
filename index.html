@@ -7,15 +7,28 @@
       type="image/x-icon"
       href="/images/Coat_of_arms_of_Kedainiai_(Lithuania).png"
     />
-    <link rel="stylesheet" href="./styles.css"> 
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="navBarScript.js"></script>
   </head>
 
   <body>
     <nav>
-      <a href="/">Home</a>
-      <a href="/">Gallery</a>
-      <a href="/">About</a>
-      <a href="/">Contacts</a>
+      <a href="/" class="active">Logo</a>
+
+      <section id="navLinks">
+        <a href="/">About</a>
+        <a href="/">Gallery</a>
+        <a href="/">Contacts</a>
+      </section>
+
+      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
     </nav>
     <main>
 

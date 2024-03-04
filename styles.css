@@ -1,3 +1,38 @@
-nav, a {
-    font-size: 4rem;
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+nav a {
+  font-size: 4rem;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+nav section {
+  display: none;
+}
+
+nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+}
+
+body{
+    margin: 0;
 }
