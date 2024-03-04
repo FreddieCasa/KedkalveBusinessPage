@@ -53,7 +53,7 @@ body {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 5rem;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -81,12 +81,12 @@ body {
   opacity: 50%;
 }
 
-.dots{
-    text-align: center;
-    background-color: transparent;
-    position:absolute;
-    bottom: 2rem;
-    width: 100%;
+.dots {
+  text-align: center;
+  background-color: transparent;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
 }
 .dot {
   cursor: pointer;
@@ -123,16 +123,27 @@ img {
     opacity: 1;
   }
 }
-footer{
-    padding: 2rem;
+footer {
+  padding: 2rem;
 }
-footer a{
-    color:black;
-    padding: 14px 16px;
-    text-decoration: none;
-    display: block;
+footer a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+article {
+  padding: 2rem;
+}
+
+.gallery {
+  position: relative;
+}
+.socialMediaIcons {
     text-align: center;
 }
-article{
-    padding: 2rem;
+
+.socialMediaIcons i{
+    padding: 1rem;
 }
