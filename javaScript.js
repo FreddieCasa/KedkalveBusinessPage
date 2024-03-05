@@ -10,7 +10,7 @@ function navBarFunction() {
 $(document).ready(function () {
   var images = []; // array to hold image paths
   var currentIndex = 0; // current index of the image being displayed
-  var interval = 3000; // interval between slide changes in milliseconds
+  var interval = 6000; // interval between slide changes in milliseconds
 
   // Function to load images from a folder
   function loadImagesFromFolder(folderPath) {
