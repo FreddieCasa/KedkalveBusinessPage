@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>KedKalve</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -12,22 +13,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="navBarScript.js"></script>
+    <script src="javaScripts.js"></script>
   </head>
 
   <body>
     <nav>
-      <a href="/" class="active">Logo</a>
-
+      <section class="inline-links">
+        <a href="/" class="active"
+          ><img src="/images/anvil.png" alt="anvil"
+        /></a>
+        <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </section>
       <section id="navLinks">
         <a href="/">About</a>
         <a href="/">Gallery</a>
         <a href="/">Contacts</a>
       </section>
-
-      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
     <main>
       <section class="slideshow-container">
@@ -55,13 +58,13 @@
       <section>
         <div class="gallery">
           <img src="./images/2.jpg" />
-          <div class="text">Gates</div>
+          <div class="text">Exterior</div>
         </div>
       </section>
       <section>
         <div class="gallery">
           <img src="./images/2.jpg" />
-          <div class="text">Railings</div>
+          <div class="text">Interior</div>
         </div>
       </section>
       <section>
@@ -72,14 +75,24 @@
       </section>
     </main>
     <footer>
-      <a href="/">About</a>
-      <a href="/">Gallery</a>
-      <a href="/">Contacts</a>
+      <div class="contacts">
+        <div class="row">
+          <i class="fa fa-phone"></i>
+          <p>+370 6 111 1111</p>
+        </div>
+        <div class="row">
+          <i class="fa fa-envelope"></i>
+          <p>placeholder@placeholder.lt</p>
+        </div>
+      </div>
       <div class="socialMediaIcons">
         <i class="fa fa-facebook"></i>
         <i class="fa fa-instagram"></i>
         <i class="fa fa-youtube"></i>
       </div>
+      <a href="https://www.flaticon.com/free-icons/anvil" title="anvil icons"
+        >Anvil icons created by Freepik - Flaticon</a
+      >
     </footer>
   </body>
 </html>
