@@ -40,7 +40,18 @@ $(document).ready(function () {
     currentIndex = (currentIndex + 1) % images.length; // loop back to the beginning if at the end
     showImage(currentIndex);
   }
-
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;  // loop back to the beginning if at the end
+    showImage(currentIndex);
+  }
   // Call the function to load images from a folder
   loadImagesFromFolder("/images/slider");
+
+  $(".prev").click(function() {
+    prevImage();
+  });
+
+  $(".next").click(function() {
+    nextImage();
+  });
 });
