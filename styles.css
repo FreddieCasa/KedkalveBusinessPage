@@ -65,6 +65,10 @@ nav a:hover {
   overflow: hidden;
 }
 
+#slider{
+  height: 200px;
+}
+
 .prev,
 .next {
   cursor: pointer;
@@ -97,7 +101,7 @@ nav a:hover {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   position: absolute;
-  bottom: 0.4rem;
+  bottom: 0rem;
   width: 100%;
   text-align: center;
   background-color: #333;
@@ -134,8 +138,13 @@ nav a:hover {
 
 main img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
+}
+
+.gallery {
+  height: 200px;
+  margin: 1rem 0 1rem 0;
 }
 
 @keyframes fade {
@@ -228,20 +237,26 @@ input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 900px) {
+  #slider{
+    height: 700px;
+  }
+
   #slider img {
     width: 100%;
-    height: 700px;
     object-fit: cover;
   }
 
-  .galleries {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 3rem;
+  .galleries section {
+    padding: 5rem 20rem 5rem 20rem;
+  }
+  .galleries img {
+    width: 100%;
+    box-shadow: 5px 10px 15px #333;
   }
 
-  .galleries section {
-    width: 20%;
+  .gallery {
+    height: 80vh;
+    margin: 0;
   }
 
   article {
