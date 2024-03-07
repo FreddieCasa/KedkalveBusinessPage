@@ -238,7 +238,7 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 900px) {
   #slider{
-    height: 700px;
+    height: 95vh;
   }
 
   #slider img {
