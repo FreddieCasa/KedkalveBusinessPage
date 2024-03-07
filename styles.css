@@ -65,7 +65,7 @@ nav a:hover {
   overflow: hidden;
 }
 
-#slider{
+#slider {
   height: 200px;
 }
 
@@ -237,7 +237,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 900px) {
-  #slider{
+  #slider {
     height: 95vh;
   }
 
@@ -264,6 +264,12 @@ input[type="submit"]:hover {
     padding-right: 30rem;
   }
 
+  article p{
+    font-size: 2rem;
+  }
+  article h1{
+    font-size: 3rem;
+  }
   footer {
     display: flex;
     flex-direction: column;
