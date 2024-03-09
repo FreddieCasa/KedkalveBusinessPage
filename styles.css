@@ -233,10 +233,10 @@ textarea {
     object-fit: cover;
   }
 
-  #galleries section {
+  .galleries section {
     padding: 5rem 20rem 5rem 20rem;
   }
-  #galleries img {
+  .galleries img {
     width: 100%;
     box-shadow: 5px 10px 15px #333;
   }
