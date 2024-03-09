@@ -259,6 +259,7 @@ input[type="submit"]:hover {
 
   .galleries section {
     padding: 5rem 5rem 5rem 5rem;
+    width: 25vw;
   }
   .galleries img {
     width: 100%;
@@ -277,7 +278,7 @@ input[type="submit"]:hover {
   }
   .gallery {
     height: 50vh;
-    width: 25vw;
+
     margin: 0;
   }
   .external-galleries .gallery {
