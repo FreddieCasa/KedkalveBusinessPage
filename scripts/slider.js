@@ -1,12 +1,3 @@
-function navBarFunction() {
-  var x = document.getElementById("navLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
 $(document).ready(function () {
   var images = []; // array to hold image paths
   var currentIndex = 0; // current index of the image being displayed
@@ -21,7 +12,7 @@ $(document).ready(function () {
           .find("a")
           .attr("href", function (i, val) {
             if (val.match(/\.(jpe?g|png|gif)$/)) {
-              images.push(val); // push image path to the array
+              images.push(folderPath + val); // push image path to the array
             }
           });
         showImage(currentIndex); // display the first image
@@ -41,17 +32,17 @@ $(document).ready(function () {
     showImage(currentIndex);
   }
   function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;  // loop back to the beginning if at the end
+    currentIndex = (currentIndex - 1 + images.length) % images.length; // loop back to the beginning if at the end
     showImage(currentIndex);
   }
   // Call the function to load images from a folder
-  loadImagesFromFolder("/images/slider");
+  loadImagesFromFolder("./images/slider/");
 
-  $(".prev").click(function() {
+  $(".prev").click(function () {
     prevImage();
   });
 
-  $(".next").click(function() {
+  $(".next").click(function () {
     nextImage();
   });
 });
