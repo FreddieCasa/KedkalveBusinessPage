@@ -216,14 +216,13 @@ textarea {
   resize: vertical;
 }
 
-
 .form-container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1300px) {
   #slider {
     height: 95vh;
   }
@@ -242,19 +241,19 @@ textarea {
   }
 
   .gallery {
-    height: 80vh;
+    height: 85vh;
     margin: 0;
   }
 
   article {
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 
-  article p{
+  article p {
     font-size: 2rem;
   }
-  article h1{
+  article h1 {
     font-size: 3rem;
   }
   footer {
@@ -296,5 +295,19 @@ textarea {
   }
   .form-container {
     padding: 5rem 40rem 5rem 40rem;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width:1300px) {
+  #slider {
+    height: 50vh;
+  }
+
+  #slider img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .form-container {
+    padding: 5rem 10rem 5rem 10rem;
   }
 }
