@@ -222,7 +222,7 @@ textarea {
   padding: 20px;
 }
 
-.exterior-h1{
+.exterior-h1, .interior-h1{
   text-align: center;
   font-size: 4rem;
   color: #242222;
