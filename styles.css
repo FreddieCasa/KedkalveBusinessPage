@@ -276,9 +276,8 @@ input[type="submit"]:hover {
     justify-content: space-evenly;
     padding: 0 0 5rem 0;
   }
-  .gallery {
+  .galleries .gallery {
     height: 50vh;
-
     margin: 0;
   }
   .external-galleries .gallery {
