@@ -173,7 +173,8 @@ footer {
 }
 
 footer .socialMediaIcons,
-.contacts, .inline-footer {
+.contacts,
+.inline-footer {
   text-align: center;
   width: 100%;
 }
@@ -222,7 +223,8 @@ textarea {
   padding: 20px;
 }
 
-.exterior-h1, .interior-h1{
+.exterior-h1,
+.interior-h1 {
   text-align: center;
   font-size: 4rem;
   color: #242222;
@@ -231,10 +233,8 @@ textarea {
 }
 
 @media screen and (min-width: 1300px) {
-
-  
   #slider {
-    height: 95vh;
+    height: 70vh;
   }
 
   #slider img {
@@ -242,8 +242,13 @@ textarea {
     object-fit: cover;
   }
 
+  .galleries {
+    display: flex;
+  }
+
   .galleries section {
-    padding: 5rem 20rem 5rem 20rem;
+    padding: 5rem 5rem 5rem 5rem;
+   
   }
   .galleries img {
     width: 100%;
@@ -261,7 +266,7 @@ textarea {
     padding: 0 0 5rem 0;
   }
   .gallery {
-    height: 85vh;
+    height: 50vh;
     margin: 0;
   }
   .external-galleries .gallery {
@@ -271,13 +276,12 @@ textarea {
 
   .external-galleries section {
     width: 30vw;
-   
   }
 
   .external-galleries img {
     box-shadow: 5px 10px 15px #333;
   }
- 
+
   article {
     padding-left: 20rem;
     padding-right: 20rem;
