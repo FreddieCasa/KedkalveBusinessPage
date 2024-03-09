@@ -173,7 +173,7 @@ footer {
 }
 
 footer .socialMediaIcons,
-.contacts {
+.contacts, .inline-footer {
   text-align: center;
   width: 100%;
 }
