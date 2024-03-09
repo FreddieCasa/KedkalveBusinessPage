@@ -240,6 +240,14 @@ textarea {
     box-shadow: 5px 10px 15px #333;
   }
 
+  .external-galleries {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery-row {
+    display: flex;
+    height: 50vh;
+  }
   .gallery {
     height: 85vh;
     margin: 0;
@@ -298,7 +306,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 736px) and (max-width:1300px) {
+@media screen and (min-width: 736px) and (max-width: 1300px) {
   #slider {
     height: 50vh;
   }
