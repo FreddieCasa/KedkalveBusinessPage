@@ -337,7 +337,7 @@ textarea {
 
 @media screen and (min-width: 736px) and (max-width: 1300px) {
   #slider {
-    height: 50vh;
+    height: 30vh;
   }
 
   #slider img {
