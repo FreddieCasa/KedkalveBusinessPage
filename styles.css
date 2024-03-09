@@ -247,12 +247,25 @@ textarea {
   .gallery-row {
     display: flex;
     height: 50vh;
+    justify-content: space-evenly;
   }
   .gallery {
     height: 85vh;
     margin: 0;
   }
+  .external-galleries .gallery {
+    height: 100%;
+    margin: 0;
+  }
 
+  .external-galleries section {
+    width: 30vw;
+    padding: 5rem 0 5rem 0;
+  }
+
+  .external-galleries img {
+    box-shadow: 5px 10px 15px #333;
+  }
   article {
     padding-left: 20rem;
     padding-right: 20rem;
