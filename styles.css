@@ -341,4 +341,41 @@ textarea {
   .form-container {
     padding: 5rem 10rem 5rem 10rem;
   }
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #717171;
+    padding: 1rem;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  .inline-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 25px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    /* text-align: center; */
+    gap: 10px;
+  }
+
+  .row i {
+    padding: 0;
+  }
+
+  .socialMediaIcons i {
+    padding: 0;
+  }
+
+  .socialMediaIcons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
 }
